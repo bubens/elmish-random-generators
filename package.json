@@ -1,0 +1,29 @@
+{
+  "name": "elmish-random",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Random generators heavily inspired by elm/random.",
+  "main": "src/elmish-random.ts",
+  "scripts": {
+    "test": "jest",
+    "make-docs": "typedoc",
+    "make-js": "tsc"
+  },
+  "keywords": [
+    "Elm-style",
+    "elmish",
+    "random",
+    "generators"
+  ],
+  "author": "Bubens van Lyka",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.0",
+    "ts-node": "^9.1.1",
+    "tsc": "^1.20150623.0",
+    "typedoc": "^0.16.11",
+    "typescript": "^3.8.3"
+  }
+}
